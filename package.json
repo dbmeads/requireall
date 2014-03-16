@@ -1,6 +1,6 @@
 {
   "name": "requireall",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Returns an array of results based on \"require\"ing all files that match the glob pattern.",
   "main": "index.js",
   "author": "David Meads <dbmeads@hotmail.com>",

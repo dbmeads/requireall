@@ -1,8 +1,8 @@
 var glob = require('glob'),
     path = require('path');
 
-module.exports = function(pattern) {
-    return glob.sync(pattern).map(function(file) {
+module.exports = function(pattern, options) {
+    return glob.sync(pattern, options).map(function(file) {
         return require(process.cwd() + '/' + cleanFile(file));
     });
 };
