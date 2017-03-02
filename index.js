@@ -8,6 +8,7 @@ module.exports = function(pattern, options) {
 };
 
 function cleanFile(file, options) {
-    var cwd = (options && options.cwd) || process.cwd();
+    options = options || {};
+    var cwd = options.cwd || process.cwd();
     return path.join(cwd, path.normalize(file).replace(cwd, ''));
 }
