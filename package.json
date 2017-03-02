@@ -6,6 +6,6 @@
   "author": "David Meads <dbmeads@hotmail.com>",
   "license": "MIT",
   "dependencies": {
-    "glob": "~3.2.8"
+    "glob": "^7.1.1"
   }
 }
